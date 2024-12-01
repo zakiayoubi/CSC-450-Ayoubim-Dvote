@@ -1,0 +1,177 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a clean font and center everything on the page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #2b2b2b; /* Two shades of dark background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e0e0e0; /* Lighter shade for the heading */
+}
+
+/* Style for the paragraph */
+p {
+  font-size: 1.2rem;
+  color: #b0b0b0; /* Lighter gray for the text */
+  margin-bottom: 20px;
+}
+
+/* Style for the button */
+.continue-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007BFF; /* Blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.continue-btn:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Election dropdown container */
+.election-container {
+  margin-top: 30px;
+}
+
+/* Style for the dropdown menu */
+.election-dropdown {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+/* Dropdown hover and focus effects */
+.election-dropdown:hover, .election-dropdown:focus {
+  border-color: #0056b3;
+}
+/* Style for the candidates container */
+.candidates-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px 30px 30px;
+}
+
+/* Style for each candidate */
+.candidate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent; /* Invisible border for now */
+  background-color: #333; /* Default background color */
+  margin: 10px 10px 10px 10px;
+}
+
+.candidate-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Hover effect for candidates */
+.candidate:hover {
+  background-color: #444; /* Slightly lighter background when hovered */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* Light shadow effect */
+  border-color: #007bff; /* Blue border to indicate hover */
+}
+
+/* Effect when a candidate is selected (radio button checked) */
+input[type="radio"]:checked + label {
+  background-color: #222; /* Darker background when selected */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* Greenish glow effect */
+  border-color: #007bff; /* Green border when selected */
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+/* Voter details styling */
+.voter-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Flexbox for pairing inputs horizontally */
+.voter-pair {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Style for each input pair */
+.input-pair {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.voter-details label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.voter-details input {
+  padding: 8px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+/* Disabled input styling for SSN */
+#ssn:disabled {
+  background-color: #a5a5a5; /* Light gray for disabled input */
+  cursor: not-allowed;
+}
+
+/* Submit button styling */
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007BFF; /* Blue color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+}
