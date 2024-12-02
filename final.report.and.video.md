@@ -3,28 +3,6 @@
 Be sure that your documentation is up to date and has all of the components listed below. Also, you will create a short 5-8 minute video to 
 complement the poster session as described below:
 
-## Final Documentation
-
-You should update the <code>README.md</code> and ALL the files that it references (such as <code>requirements.md</code>, and so forth), by fixing 
-any typos errors or with corrections as to what your final project is about. This is the **FINAL** version that you will ultimately be graded on.
-
-- Project name
-- Project Concept (linked to <code>concept.md</code>)
-- Vision<br>
-The paragraph of your vision is here.
-- Scope<br>
-The paragraph of your scope is here.
-- Prerequisites
-- Requirements (linked to <code>requirements.md</code>)
-- Design (linked to <code>design.md</code>)
-- Test Plan (linked to <code>test.plan.md</code>)
-- Built With
-- Author name
-  - About the Lead Developer
-  Your biographical information 
-- Acknowledgments
-- Installation and use guide (linked to <code>install.md</code>)
-
 ## Video
 - This [set of video demos](http://cs.berea.edu/courses/csc493-older/schedule.html) is older now, but most of the videos still exist. Watch some of them to get ideas and think about what you think is effective and what is not.
 - Read [12 tips for killer software demos](https://www.cio.com/article/3074817/12-tips-for-killer-software-demos.html) and reflect on how to make a great video demo that really showcases the best parts of your prototype.

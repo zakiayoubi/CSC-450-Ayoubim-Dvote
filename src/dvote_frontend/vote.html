@@ -9,21 +9,23 @@
     <h1>Vote for Your Candidate</h1>
     <p>Please select one of the candidates below to cast your vote</p>
 
-    <form action="/submit-vote" method="POST">
+    <form action="#">
         <div class="candidates-container">
             <div>
-                <input type="radio" id="candidate1" name="candidate" value="Candidate 1">
+                <input type="radio" id="candidate1" name="candidate" value="trump">
                 <label for="candidate1" class="candidate">
                     <img src="./src/trump.png" alt="Candidate 1" class="candidate-img">
                     <p>Donald J. Trump</p>
                 </label>
+                <div id="trump-votes"></div>
             </div>
             <div>
-                <input type="radio" id="candidate2" name="candidate" value="Candidate 2">
+                <input type="radio" id="candidate2" name="candidate" value="kamala">
                 <label for="candidate2" class="candidate">
                     <img src="./src/kamala.png" alt="Candidate 2" class="candidate-img">
                     <p>Kamala Harris</p>
                 </label>
+                <div id="kamala-votes"></div>
             </div>
         </div>
 
@@ -46,7 +48,7 @@
                 </div>
                 <div class="input-pair">
                     <label for="b_number">B-Number</label>
-                    <input type="text" id="b_number" name="b_number" required><br>
+                    <input type="text" id="b-number" name="b-number" required><br>
                 </div>
             </div>
         </div>
@@ -56,3 +58,5 @@
     <script type="module" src="/src/main.js"></script>
 </body>
 </html>
+
+    
